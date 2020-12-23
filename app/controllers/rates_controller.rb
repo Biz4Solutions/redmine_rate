@@ -11,10 +11,10 @@ class RatesController < ApplicationController
   helper :queries
   helper :sort
 
-  before_filter :require_view_permission
-  before_filter :require_edit_permission, only: [:new, :create, :update_form]
-  before_filter :permit_params
-  before_filter :setup_query, only: [:index]
+  before_action :require_view_permission
+  before_action :require_edit_permission, only: [:new, :create, :update_form]
+  before_action :permit_params
+  before_action :setup_query, only: [:index]
 
   def index
     if params[:user_id]

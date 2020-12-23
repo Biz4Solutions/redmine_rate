@@ -3,7 +3,7 @@
 # permissions emerged.
 # This migration changes old configurations (if necessary)
 # in order to adjust to new logic.
-class UpdatePermissions < ActiveRecord::Migration
+class UpdatePermissions < ActiveRecord::Migration[5.2]
   def self.up
     if Rate.count > 0
       # Existing users are used to have Rate working everywhere. In order to

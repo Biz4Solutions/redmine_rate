@@ -1,4 +1,4 @@
-class AddRateIdToTimeEntries < ActiveRecord::Migration
+class AddRateIdToTimeEntries < ActiveRecord::Migration[5.2]
   def change
     add_column :time_entries, :rate_id, :integer
 

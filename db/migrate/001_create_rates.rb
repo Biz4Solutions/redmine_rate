@@ -1,4 +1,4 @@
-class CreateRates < ActiveRecord::Migration
+class CreateRates < ActiveRecord::Migration[5.2]
   def change
     create_table :rates do |t|
       t.column :amount, :decimal, precision: 15, scale: 2

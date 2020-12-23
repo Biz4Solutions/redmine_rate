@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="85a43772-b3ed-409a-b8bc-534447023fcd" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/app/controllers/rates_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/rates_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/rates/_list.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/rates/_list.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/migrate/001_create_rates.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/migrate/001_create_rates.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/migrate/002_add_indexes_to_rates.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/migrate/002_add_indexes_to_rates.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/migrate/003_add_rate_id_to_time_entries.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/migrate/003_add_rate_id_to_time_entries.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/migrate/004_add_cost_to_time_entries.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/migrate/004_add_cost_to_time_entries.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/migrate/005_update_permissions.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/migrate/005_update_permissions.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/redmine_rate.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/redmine_rate.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/redmine_rate/hook.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/redmine_rate/hook.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/redmine_rate/patches/users_helper_patch.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/redmine_rate/patches/users_helper_patch.rb" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven3" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1kVS295RRfftywlwqZjou12B4Xo" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="android.sdk.path" value="/usr/local/android-sdk" />
+    <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/config/locales" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/config/locales" />
+      <recent name="$PROJECT_DIR$/lib" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+      <method />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file enabled="true" id="idea.log" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration>$USER_HOME$/.subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="85a43772-b3ed-409a-b8bc-534447023fcd" name="Default Changelist" comment="" />
+      <created>1605784055596</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1605784055596</updated>
+      <workItem from="1605784056838" duration="65692000" />
+      <workItem from="1606151776446" duration="605000" />
+      <workItem from="1608645777499" duration="890000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="100" y="123" width="1592" height="872" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1605865656762">
+      <screen x="0" y="23" width="1792" height="1072" />
+    </state>
+    <state x="100" y="123" width="1592" height="872" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.23.1792.1072@0.23.1792.1072" timestamp="1605865656762" />
+    <state x="555" y="177" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1605869949691">
+      <screen x="0" y="23" width="1792" height="1072" />
+    </state>
+    <state x="555" y="177" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.23.1792.1072@0.23.1792.1072" timestamp="1605869949691" />
+    <state x="594" y="314" width="675" height="490" key="find.popup" timestamp="1606132703377">
+      <screen x="0" y="23" width="1792" height="1072" />
+    </state>
+    <state x="594" y="314" width="675" height="490" key="find.popup/0.23.1792.1072@0.23.1792.1072" timestamp="1606132703377" />
+    <state x="561" y="262" width="670" height="676" key="search.everywhere.popup" timestamp="1605891479153">
+      <screen x="0" y="23" width="1792" height="1072" />
+    </state>
+    <state x="561" y="262" width="670" height="676" key="search.everywhere.popup/0.23.1792.1072@0.23.1792.1072" timestamp="1605891479153" />
+  </component>
+</project>

@@ -12,11 +12,11 @@ module RedmineRate
     end
 
     def view_users_memberships_table_header(context = {})
-      content_tag(:th, l(:label_rate) + ' ' + l(:rate_label_currency))
+      content_tag(:th, l(:label_rate))
     end
 
     def view_projects_settings_members_table_header(context = {})
-      content_tag(:th, l(:label_rate) + ' ' + l(:rate_label_currency))
+      content_tag(:th, l(:label_rate) )
     end
 
     # Renders an additional table header to the membership setting

@@ -90,7 +90,7 @@ module RedmineRate
     require_dependencies
     hook
 
-    ActionDispatch::Reloader.to_prepare do
+    ActiveSupport::Reloader.to_prepare do
       plugin.patch
     end
   end

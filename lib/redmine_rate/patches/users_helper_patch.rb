@@ -4,9 +4,9 @@ module RedmineRate
       def self.included(base)
         base.send(:include, RatesHelper)
 
-        base.class_eval do
-          alias_method_chain :user_settings_tabs, :rate_tab
-        end
+        #base.class_eval do
+        # alias_method :user_settings_tabs, :user_settings_tabs_with_rate_tab
+        #end
       end
 
       module InstanceMethods
